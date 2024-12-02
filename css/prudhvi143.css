@@ -1,0 +1,288 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+/** Utility Classes */
+.container {
+    max-width: 1400px;
+    margin: auto 2em;
+}
+.container-fluid {
+    max-width: 1400px;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-sb {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.gap-1{
+    gap: 1em;
+}
+.gap-2{
+    gap: 2em;
+}
+.gap-3{
+    gap: 3em;
+}
+
+/** Positions */
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+
+/** Text */
+.text-center {
+    text-align: center;
+}
+
+/** Width */
+.w-100 {
+    width: 100% !important;
+}
+.w-50 {
+    width: 50% !important;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+/** Margin */
+.m-auto {
+    margin: auto;
+}
+.m-0{
+    margin: 0px;
+}
+.m-1 {
+    margin: 1em;
+}
+
+.my-1 {
+    margin: 1em 0px;
+}
+.my-2 {
+    margin: 2em 0px;
+}
+.my-3 {
+    margin: 3em 0px;
+}
+.mx-1 {
+    margin: 0px 1em;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+.mt-1 {
+    margin-top: 1em;
+}
+.mb-0 {
+    margin-bottom: 0em;
+}
+.mb-1 {
+    margin-bottom: 1em;
+}
+.mb-3 {
+    margin-bottom: 3em;
+}
+
+/** Padding */
+.p-0{
+    padding: 0px;
+}
+.p-1 {
+    padding: 1em;
+}
+.p-2 {
+    padding: 2em;
+}
+.p-3 {
+    padding: 3em;
+}
+.py-1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.py-2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.py-3 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.py-4 {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.py-5 {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.px-1 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.px-2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.px-3 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.px-4 {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.px-5 {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.pt-1 {
+    padding-top: 1em;
+}
+.pb-1 {
+    padding-bottom: 1em;
+}
+.pb-3 {
+    padding-bottom: 3em;
+}
+
+/** border radius */
+.radious-1 {
+    border-radius: 1em;
+}
+.radious-2 {
+    border-radius: 2em;
+}
+.radious-3 {
+    border-radius: 3em;
+}
+
+/** border */
+.b-0 {
+    border: 0px;
+}
+
+/** bg-color */
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-whitesmoke {
+          background-color: #d5d1d1;
+}
+.bg-gray {
+        background-color: #f6f6f6;
+   }
+
+/** Font Weight */
+.font-weight-bold {
+    font-weight: bold;
+}
+
+/** text color */
+.txt-gray {
+    color: #999999;
+}
+
+/** Header */
+header {
+    max-width: 1400px;
+    margin: auto;
+    padding: 1em 3em;
+}
+
+header nav a {
+    padding: .5em 2em;
+    border-right: 1px solid #8080803b;
+}
+
+/** Hero Sec */
+.heroSec {
+    color: #ffffff;
+    background-image:  url("C:/course/HTML/BlogWebsite/assets/images/background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 400px; /* You must set a specified height */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.heroSec .hearoContent {
+    z-index: 1;
+}
+.heroSec .bg-trans-layer {
+   background-color: #000000;
+   height: 100%;
+   width: 100%; 
+   top: 0px;
+   left: 0px;
+   z-index: 0;
+   opacity: 0.6;
+}
+.heroSec .readMoreBtn {
+    padding: .5em 1.5em;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.heroSec small, .heroSec p {
+    color: #dedede;
+}
+
+/** Latest Posts Section */
+.latestPosts {
+    background-color: #d6d0d0;
+}
+.latestPostsContainer {
+    max-width: 1000px;
+    margin: auto;
+}
+.latestPosts .heroSec {
+    color: #ffffff;
+    background-image: url("C:/course/HTML/BlogWebsite/assets/images/background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 50%;
+}
+.latestPosts p{
+    color: #999999;
+    font-size: 14px;
+}
+.latestPosts .latestPostsMainBlk .allPost {
+    width: 60%;
+}
+.latestPosts .latestPostsMainBlk .trendingPostBlk {
+    width: 40%;
+}
+
+/** button*/
+
+.btnsub {
+       color: #ffffff;
+       background-color: #141212;
+       font-size: larger;
+
+ }
+.arrow {
+    float: right;
+}

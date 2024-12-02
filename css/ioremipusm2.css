@@ -1,0 +1,254 @@
+body { 
+      margin: 30px 20px;
+      background-color: whitesmoke;
+}
+
+
+.header {
+         display: flex;
+         justify-content: space-between; 
+         align-items: center; 
+         padding: 20px;
+         background-color: whitesmoke;
+         color: black;
+         position: sticky; 
+         top: 0;
+         z-index: 1000;
+         flex-wrap: wrap;
+    
+}
+
+.logo {
+       font-size: 40px;
+}
+
+
+.nav {
+    display: flex;
+    gap: 40px; 
+     
+    font-size: 20px;
+    
+}
+
+.nav a {
+    color: black;
+    text-decoration: underline;
+    padding: 15px;
+}
+
+ .nav a:hover {
+    background-color: red;
+}
+
+.img-div { 
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      
+      
+      
+   
+}
+.img {
+     width: 30px;
+      height: 30px;
+   }   
+
+
+ .hero {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 80px;
+    background-color: #333;
+    z-index: 1000;
+    flex-wrap: wrap;
+    
+
+}
+
+   
+ 
+.hero-title {
+             font-size: 20px;
+}
+
+.hero-subtitle {
+                font-size: 10px;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.hero-btn:hover {
+    background-color: red;
+
+}
+
+.img-car {
+           display: flex;
+           justify-content:  space-between;
+           text-align: center;
+           background-color: whitesmoke;
+           padding: 10px;
+           
+           
+}
+     
+   
+
+           
+  .section-img {
+          width: 100%;
+          flex-wrap: wrap;
+    
+
+                }      
+          
+
+
+ 
+.image {
+       
+        width: 250px;
+        height: 200px;
+}
+
+
+.post {
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
+       position: relative;
+       
+       text-align: center;
+       font-size: 15px;
+   
+}
+
+  .category {
+            margin: 55px;
+             
+
+}
+            
+
+.top { 
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 250px;
+    background-color: #333;
+    text-align: center;
+    line-height: 33px;
+    color: white;
+    padding: 20px 60px;
+    margin: 20px 0px 20px 84px; 
+}
+
+
+.new-post {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 84px;
+    width: 56%;
+    font-size: 13px;
+    background-color: whitesmoke;
+    padding: 10px;
+    
+
+}
+
+  .raja {
+              float: left;
+              width: 157px;
+              height: 184px;
+              padding: 15px;
+}
+
+   .trendingpost{
+                  display: flex;
+                 align-items: flex-start; 
+              }
+
+.category-aaside {
+           display: flex;
+           bottom: 812px;
+           left: 35px;
+           flex-direction: column;
+           float: inline-end;
+           position: relative;
+           background-color: white;
+           margin: 9px;
+           padding: 11px 5px;
+           align-items: baseline;
+           width: 33%;
+           flex-wrap: wrap;
+           
+
+  
+}
+
+    .youtube {
+               width: 60px;
+               height: 60px;
+               float: left;
+}
+
+.banner {
+          display: flex;
+           bottom: 318px;
+           left: 353px;
+           flex-direction: column;
+           float: inline-end;
+           position: relative;
+           background-color: white;
+           margin: 9px;
+           padding: 11px 5px;
+           align-items: baseline;
+           width: 33%;
+           flex-wrap: wrap;
+           height: 35%;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.contact-health {
+             display: flex;
+             justify-content: space-between;
+             background-color: whitesmoke;
+             padding: 10px;
+}
+
+.from{
+    position: absolute;
+    font-size: 25px;
+    top: 225%;
+      }
+
+ .health { 
+          
+          margin: 0px 31px;
+        font-size: 5px;
+}
+              
+       
+     
